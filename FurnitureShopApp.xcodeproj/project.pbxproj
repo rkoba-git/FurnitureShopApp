@@ -13,6 +13,8 @@
 		6FCA95CF296D755000F5FDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA95CE296D755000F5FDE4 /* ContentView.swift */; };
 		6FCA95D1296D755200F5FDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCA95D0296D755200F5FDE4 /* Assets.xcassets */; };
 		6FCA95D4296D755200F5FDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCA95D3296D755200F5FDE4 /* Preview Assets.xcassets */; };
+		6FDE053529705D8E005CE645 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE053429705D8E005CE645 /* HomeScreen.swift */; };
+		6FDE05372971659F005CE645 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE05362971659F005CE645 /* DetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6FCA95CE296D755000F5FDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FCA95D0296D755200F5FDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCA95D3296D755200F5FDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FDE053429705D8E005CE645 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		6FDE05362971659F005CE645 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,11 @@
 		6FCA95CB296D755000F5FDE4 /* FurnitureShopApp */ = {
 			isa = PBXGroup;
 			children = (
-				6F42BBF0296F03E00092617B /* Fonts */,
-				6FA03C28296EE73B005B51E4 /* Info.plist */,
 				6FCA95CC296D755000F5FDE4 /* FurnitureShopAppApp.swift */,
 				6FCA95CE296D755000F5FDE4 /* ContentView.swift */,
+				6FDE053329705D45005CE645 /* Screens */,
+				6F42BBF0296F03E00092617B /* Fonts */,
+				6FA03C28296EE73B005B51E4 /* Info.plist */,
 				6FCA95D0296D755200F5FDE4 /* Assets.xcassets */,
 				6FCA95D2296D755200F5FDE4 /* Preview Content */,
 			);
@@ -81,6 +86,15 @@
 				6FCA95D3296D755200F5FDE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FDE053329705D45005CE645 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6FDE053429705D8E005CE645 /* HomeScreen.swift */,
+				6FDE05362971659F005CE645 /* DetailScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDE05372971659F005CE645 /* DetailScreen.swift in Sources */,
 				6FCA95CF296D755000F5FDE4 /* ContentView.swift in Sources */,
 				6FCA95CD296D755000F5FDE4 /* FurnitureShopAppApp.swift in Sources */,
+				6FDE053529705D8E005CE645 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
